@@ -39,7 +39,7 @@ Aplikasi ini membutuhkan *database* MySQL lokal (menggunakan XAMPP, Laragon, dll
 **Langkah-langkah Import Database:**
 1. Nyalakan server MySQL Anda (melalui XAMPP Control Panel atau Laragon).
 2. Buka phpMyAdmin, HeidiSQL, DBeaver, atau MySQL *client* favorit Anda.
-3. Lakukan **Import** (atau eksekusi/jalankan) file `databasenetbeans.sql` yang terletak di folder utama (*root*) *project* ini.
+3. Lakukan **Import** (atau eksekusi/jalankan) file `db_toko_berkah.sql` yang terletak di dalam folder `Database/` pada *project* ini.
    *(Catatan: File tersebut sudah berisi perintah otomatis untuk membuat database `db_toko_berkah` sekaligus tabel dan isinya).*
 4. Secara *default*, koneksi aplikasi Java sudah diarahkan ke:
    - **Nama Database:** `db_toko_berkah`
