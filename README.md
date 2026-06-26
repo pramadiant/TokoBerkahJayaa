@@ -32,5 +32,14 @@ Toko Berkah Jaya adalah aplikasi kasir / *Point of Sales* (POS) berbasis Desktop
 4. Pastikan *library* UI (`flatlaf-3.4.1.jar`) yang berada di dalam folder `lib/` sudah terdeteksi di bagian *Libraries* *project* Anda.
 5. Klik kanan pada *project* `TokoBerkahJaya` dan pilih **Run** (atau tekan F6).
 
+## 🗄️ Setup Database & Kredensial Login
+
+Aplikasi ini membutuhkan *database* MySQL untuk dapat berjalan (koneksi diatur pada `Koneksi.java` ke *database* `db_toko_berkah`). 
+
+**Kredensial Default Login:**
+Karena sistem login membaca langsung dari tabel `tb_user`, pastikan Anda sudah memasukkan (*insert*) data pengguna ke *database* lokal Anda. Secara umum, kredensial yang biasa digunakan adalah:
+- **Username:** `admin` *(atau sesuaikan dengan database Anda)*
+- **Password:** `admin` *(atau sesuaikan dengan database Anda)*
+
 ---
 *Dibuat untuk keperluan tugas pemrograman aplikasi Point of Sales.*
