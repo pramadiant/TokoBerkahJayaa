@@ -16,3 +16,6 @@ Dummy Data.xlsx
 # File sampah bawaan OS Windows/Mac
 Thumbs.db
 .DS_Store
+
+# Mengabaikan file .gitignore ini sendiri
+.gitignore
