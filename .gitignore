@@ -1,0 +1,18 @@
+# File hasil compile Java
+*.class
+
+# Folder hasil build NetBeans
+build/
+dist/
+nbbuild/
+nbdist/
+
+# Konfigurasi lokal NetBeans (hanya untuk komputer Anda)
+nbproject/private/
+
+# File Excel Data Dummy (Hapus baris di bawah ini jika ingin ikut di-upload)
+Dummy Data.xlsx
+
+# File sampah bawaan OS Windows/Mac
+Thumbs.db
+.DS_Store
