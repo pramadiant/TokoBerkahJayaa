@@ -48,9 +48,9 @@ Aplikasi ini membutuhkan *database* MySQL lokal (menggunakan XAMPP, Laragon, dll
    > **Penting:** Jika komputer Anda (atau dosen penilai) menggunakan *password* untuk user `root`, silakan sesuaikan pengaturannya di dalam file `src/config/Koneksi.java` pada baris ke-15 sampai 17.
 
 **Kredensial Login Aplikasi:**
-Karena seluruh data *dummy* otomatis ikut masuk saat proses *import* selesai, Anda bisa langsung *login* ke dalam aplikasi menggunakan akun default berikut:
-- **Username:** `admin`
-- **Password:** `admin`
+Karena seluruh data *dummy* otomatis ikut masuk saat proses *import* selesai, Anda bisa langsung *login* ke dalam aplikasi menggunakan salah satu akun berikut:
+- **Hak Akses Admin:** Username: `admin` | Password: `123`
+- **Hak Akses Kasir:** Username: `kasir1` | Password: `123`
 
 ---
 *Dibuat untuk keperluan tugas pemrograman aplikasi Point of Sales.*
