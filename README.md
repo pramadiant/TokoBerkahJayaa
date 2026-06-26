@@ -34,12 +34,23 @@ Toko Berkah Jaya adalah aplikasi kasir / *Point of Sales* (POS) berbasis Desktop
 
 ## 🗄️ Setup Database & Kredensial Login
 
-Aplikasi ini membutuhkan *database* MySQL untuk dapat berjalan (koneksi diatur pada `Koneksi.java` ke *database* `db_toko_berkah`). 
+Aplikasi ini membutuhkan *database* MySQL lokal (menggunakan XAMPP, Laragon, dll). File *export database* telah disertakan di dalam *project* ini.
 
-**Kredensial Default Login:**
-Karena sistem login membaca langsung dari tabel `tb_user`, pastikan Anda sudah memasukkan (*insert*) data pengguna ke *database* lokal Anda. Secara umum, kredensial yang biasa digunakan adalah:
-- **Username:** `admin` *(atau sesuaikan dengan database Anda)*
-- **Password:** `admin` *(atau sesuaikan dengan database Anda)*
+**Langkah-langkah Import Database:**
+1. Nyalakan server MySQL Anda (melalui XAMPP Control Panel atau Laragon).
+2. Buka phpMyAdmin, HeidiSQL, DBeaver, atau MySQL *client* favorit Anda.
+3. Lakukan **Import** (atau eksekusi/jalankan) file `databasenetbeans.sql` yang terletak di folder utama (*root*) *project* ini.
+   *(Catatan: File tersebut sudah berisi perintah otomatis untuk membuat database `db_toko_berkah` sekaligus tabel dan isinya).*
+4. Secara *default*, koneksi aplikasi Java sudah diarahkan ke:
+   - **Nama Database:** `db_toko_berkah`
+   - **User MySQL:** `root`
+   - **Password MySQL:** *(kosong)*
+   > **Penting:** Jika komputer Anda (atau dosen penilai) menggunakan *password* untuk user `root`, silakan sesuaikan pengaturannya di dalam file `src/config/Koneksi.java` pada baris ke-15 sampai 17.
+
+**Kredensial Login Aplikasi:**
+Karena seluruh data *dummy* otomatis ikut masuk saat proses *import* selesai, Anda bisa langsung *login* ke dalam aplikasi menggunakan akun default berikut:
+- **Username:** `admin`
+- **Password:** `admin`
 
 ---
 *Dibuat untuk keperluan tugas pemrograman aplikasi Point of Sales.*
